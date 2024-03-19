@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory} from 'vue-router';
 
 import homepage from './pages/homepage.vue'
-import aboutus from './pages/aboutus.vue'
-import starthere from './pages/starthere.vue'
+import aboutme from './pages/aboutme.vue'
+import my_project from './pages/my_project.vue'
 
 
 const router = createRouter({
@@ -14,14 +14,14 @@ const router = createRouter({
             component: homepage
         },
         {
-            path:'/aboutus',
-            name:'aboutus',
-            component: aboutus
+            path:'/aboutme',
+            name:'aboutme',
+            component: aboutme
         },
         {
-            path:'/starthere',
-            name:'starthere',
-            component: starthere
+            path:'/my_project',
+            name:'my_project',
+            component: my_project
         },
     ]
 });

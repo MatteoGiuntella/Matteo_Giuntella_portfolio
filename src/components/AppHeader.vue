@@ -13,16 +13,16 @@ export default {
 
 <template>
     <header>
-       <div>
-        <ul>
+       <div class=" w-25 p-5 my-3 ">
+        <ul class=" d-flex  justify-content-between list-unstyled ">
             <li>
                 <router-link :to="{name:'home'}" > Home</router-link>
             </li>
             <li>
-                <router-link :to="{name:'aboutus'}" > aboutus</router-link>
+                <router-link :to="{name:'aboutme'}" > aboutme</router-link>
             </li>
             <li>
-                <router-link :to="{name:'starthere'}" >starthere</router-link>
+                <router-link :to="{name:'my_project'}" >my_project</router-link>
             </li>
         </ul>
        </div>
